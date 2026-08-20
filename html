@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luiz Carlos | Portfólio Profissional</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">Luiz Carlos</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Menu">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link active">Início</a></li>
+                <li><a href="#sobre" class="nav-link">Sobre Mim</a></li>
+                <li><a href="#projetos" class="nav-link">Projetos</a></li>
+                <li><a href="#contato" class="nav-link">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <p class="hero-saudacao">Olá, eu sou</p>
+                <h1 class="hero-nome">Luiz Carlos</h1>
+                <h2 class="hero-titulo" id="typewriter"></h2>
+                <p class="hero-descricao">
+                    Estudante de <strong>Análise e Desenvolvimento de Sistemas</strong>, apaixonado por tecnologia 
+                    e soluções inovadoras. Busco transformar ideias em código que faz a diferença.
+                </p>
+                <div class="hero-botoes">
+                    <a href="#projetos" class="btn btn-primario">Ver Projetos</a>
+                    <a href="#contato" class="btn btn-secundario">Fale Comigo</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/" target="_blank" class="social-link" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                    <a href="https://linkedin.com/" target="_blank" class="social-link" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                            <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                        </svg>
+                    </a>
+                    <a href="mailto:seuemail@exemplo.com" class="social-link" aria-label="Email">
+                        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-avatar">
+                <div class="avatar-circle">
+                    <span class="avatar-inicial">LC</span>
+                </div>
+                <div class="avatar-ring"></div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Role para baixo</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="sobre-grid">
+                <div class="sobre-texto">
+                    <p>
+                        Sou um estudante dedicado de <strong>Análise e Desenvolvimento de Sistemas</strong>, 
+                        com uma paixão genuína por tecnologia e programação. Acredito que a tecnologia tem 
+                        o poder de transformar vidas e resolver problemas reais do mundo.
+                    </p>
+                    <p>
+                        No meu dia a dia, estou sempre explorando novas ferramentas e linguagens, buscando 
+                        me tornar um profissional mais completo e versátil. Meu objetivo é me tornar um 
+                        desenvolvedor full-stack, capaz de criar soluções completas e eficientes.
+                    </p>
+                </div>
+                <div class="sobre-cards">
+                    <div class="card-sobre">
+                        <div class="card-icone">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            </svg>
+                        </div>
+                        <h3>Interesses</h3>
+                        <ul>
+                            <li>Desenvolvimento Web</li>
+                            <li>Inteligência Artificial</li>
+                            <li>Cloud Computing</li>
+                            <li>Cibersegurança</li>
+                        </ul>
+                    </div>
+                    <div class="card-sobre">
+                        <div class="card-icone">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+                                <path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/>
+                            </svg>
+                        </div>
+                        <h3>Habilidades</h3>
+                        <ul>
+                            <li>HTML & CSS</li>
+                            <li>JavaScript</li>
+                            <li>Python</li>
+                            <li>Git & GitHub</li>
+                        </ul>
+                    </div>
+                    <div class="card-sobre">
+                        <div class="card-icone">
+                            <svg viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+                                <path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/>
+                            </svg>
+                        </div>
+                        <h3>Objetivos</h3>
+                        <ul>
+                            <li>Concluir a graduação</li>
+                            <li>Estágio em desenvolvimento</li>
+                            <li>Projetos open source</li>
+                            <li>Certificações técnicas</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="tecnologias">
+                <h3>Tecnologias que Estou Estudando</h3>
+                <div class="tech-grid">
+                    <div class="tech-item" data-tooltip="HTML5">
+                        <span class="tech-icon">🌐</span>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="tech-item" data-tooltip="CSS3">
+                        <span class="tech-icon">🎨</span>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="tech-item" data-tooltip="JavaScript">
+                        <span class="tech-icon">⚡</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="tech-item" data-tooltip="Python">
+                        <span class="tech-icon">🐍</span>
+                        <span>Python</span>
+                    </div>
+                    <div class="tech-item" data-tooltip="React">
+                        <span class="tech-icon">⚛️</span>
+                        <span>React</span>
+                    </div>
+                    <div class="tech-item" data-tooltip="Node.js">
+                        <span class="tech-icon">💚</span>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="tech-item" data-tooltip="Git">
+                        <span class="tech-icon">📦</span>
+                        <span>Git</span>
+                    </div>
+                    <div class="tech-item" data-tooltip="MySQL">
+                        <span class="tech-icon">🗄️</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="projetos">
+        <div class="container">
+            <h2 class="section-title">Meus Projetos</h2>
+            <p class="section-subtitle">Aqui estão alguns dos projetos que desenvolvi durante meu aprendizado</p>
+            
+            <div class="projetos-filtros">
+                <button class="filtro-btn active" data-filtro="todos">Todos</button>
+                <button class="filtro-btn" data-filtro="web">Web</button>
+                <button class="filtro-btn" data-filtro="backend">Backend</button>
+                <button class="filtro-btn" data-filtro="outros">Outros</button>
+            </div>
+
+            <div class="projetos-grid">
+                <article class="projeto-card" data-categoria="web">
+                    <div class="projeto-imagem">
+                        <div class="projeto-placeholder">🌐</div>
+                        <div class="projeto-overlay">
+                            <a href="#" class="projeto-link" target="_blank">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                    <path d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7zm-2 16H5V5h7V3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7h-5z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projeto-info">
+                        <div class="projeto-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <h3>Site Pessoal Responsivo</h3>
+                        <p>Primeiro projeto de desenvolvimento web. Um site pessoal completo com design responsivo, menu hamburger para mobile e animações suaves.</p>
+                        <div class="projeto-botoes">
+                            <a href="#" class="btn btn-pequeno" target="_blank">Ver Demo</a>
+                            <a href="#" class="btn btn-pequeno btn-outline" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projeto-card" data-categoria="web">
+                    <div class="projeto-imagem">
+                        <div class="projeto-placeholder">📝</div>
+                        <div class="projeto-overlay">
+                            <a href="#" class="projeto-link" target="_blank">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                    <path d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7zm-2 16H5V5h7V3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7h-5z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projeto-info">
+                        <div class="projeto-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">LocalStorage</span>
+                        </div>
+                        <h3>Lista de Tarefas</h3>
+                        <p>Aplicação de gerenciamento de tarefas com funcionalidades de adicionar, editar, excluir e marcar como concluída. Utiliza LocalStorage para persistência.</p>
+                        <div class="projeto-botoes">
+                            <a href="#" class="btn btn-pequeno" target="_blank">Ver Demo</a>
+                            <a href="#" class="btn btn-pequeno btn-outline" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projeto-card" data-categoria="backend">
+                    <div class="projeto-imagem">
+                        <div class="projeto-placeholder">🔗</div>
+                        <div class="projeto-overlay">
+                            <a href="#" class="projeto-link" target="_blank">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                    <path d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7zm-2 16H5V5h7V3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7h-5z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projeto-info">
+                        <div class="projeto-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Flask</span>
+                            <span class="tag">SQLite</span>
+                        </div>
+                        <h3>API REST de Contatos</h3>
+                        <p>API RESTful para gerenciamento de contatos pessoais. Inclui operações CRUD completas, validação de dados e documentação com Swagger.</p>
+                        <div class="projeto-botoes">
+                            <a href="#" class="btn btn-pequeno" target="_blank">Ver Demo</a>
+                            <a href="#" class="btn btn-pequeno btn-outline" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projeto-card" data-categoria="web">
+                    <div class="projeto-imagem">
+                        <div class="projeto-placeholder">🌤️</div>
+                        <div class="projeto-overlay">
+                            <a href="#" class="projeto-link" target="_blank">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                    <path d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7zm-2 16H5V5h7V3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7h-5z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projeto-info">
+                        <div class="projeto-tags">
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">API</span>
+                            <span class="tag">Fetch</span>
+                        </div>
+                        <h3>Previsão do Tempo</h3>
+                        <p>Aplicação que consome a API OpenWeatherMap para exibir previsão do tempo em tempo real, com busca por cidade e ícones dinâmicos.</p>
+                        <div class="projeto-botoes">
+                            <a href="#" class="btn btn-pequeno" target="_blank">Ver Demo</a>
+                            <a href="#" class="btn btn-pequeno btn-outline" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projeto-card" data-categoria="outros">
+                    <div class="projeto-imagem">
+                        <div class="projeto-placeholder">🎮</div>
+                        <div class="projeto-overlay">
+                            <a href="#" class="projeto-link" target="_blank">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                    <path d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7zm-2 16H5V5h7V3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7h-5z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projeto-info">
+                        <div class="projeto-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Pygame</span>
+                        </div>
+                        <h3>Jogo da Cobrinha</h3>
+                        <p>Implementação do clássico jogo da cobrinha utilizando Python e Pygame. Inclui sistema de pontuação, níveis de dificuldade e interface gráfica.</p>
+                        <div class="projeto-botoes">
+                            <a href="#" class="btn btn-pequeno" target="_blank">Ver Demo</a>
+                            <a href="#" class="btn btn-pequeno btn-outline" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projeto-card" data-categoria="backend">
+                    <div class="projeto-imagem">
+                        <div class="projeto-placeholder">📊</div>
+                        <div class="projeto-overlay">
+                            <a href="#" class="projeto-link" target="_blank">
+                                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                    <path d="M14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7zm-2 16H5V5h7V3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7h-5z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="projeto-info">
+                        <div class="projeto-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">Matplotlib</span>
+                        </div>
+                        <h3>Análise de Dados</h3>
+                        <p>Projeto de análise exploratória de dados sobre vendas de uma loja virtual. Gera gráficos e relatórios automatizados com insights valiosos.</p>
+                        <div class="projeto-botoes">
+                            <a href="#" class="btn btn-pequeno" target="_blank">Ver Demo</a>
+                            <a href="#" class="btn btn-pequeno btn-outline" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2 class="section-title">Contato</h2>
+            <p class="section-subtitle">Vamos conversar? Estou disponível para oportunidades e parcerias</p>
+            
+            <div class="contato-grid">
+                <div class="contato-info">
+                    <div class="contato-item">
+                        <div class="contato-icone">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                            </svg>
+                        </div>
+                        <div class="contato-dados">
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/" target="_blank">github.com/seu-usuario</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contato-item">
+                        <div class="contato-icone">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+                            </svg>
+                        </div>
+                        <div class="contato-dados">
+                            <h4>LinkedIn</h4>
+                            <a href="https://linkedin.com/" target="_blank">linkedin.com/in/seu-perfil</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contato-item">
+                        <div class="contato-icone">
+                            <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                            </svg>
+                        </div>
+                        <div class="contato-dados">
+                            <h4>E-mail</h4>
+                            <a href="mailto:seuemail@exemplo.com">seuemail@exemplo.com</a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contato-form" id="contato-form">
+                    <div class="form-grupo">
+                        <input type="text" id="nome" name="nome" required placeholder=" ">
+                        <label for="nome">Seu Nome</label>
+                    </div>
+                    <div class="form-grupo">
+                        <input type="email" id="email" name="email" required placeholder=" ">
+                        <label for="email">Seu E-mail</label>
+                    </div>
+                    <div class="form-grupo">
+                        <input type="text" id="assunto" name="assunto" required placeholder=" ">
+                        <label for="assunto">Assunto</label>
+                    </div>
+                    <div class="form-grupo">
+                        <textarea id="mensagem" name="mensagem" rows="5" required placeholder=" "></textarea>
+                        <label for="mensagem">Sua Mensagem</label>
+                    </div>
+                    <button type="submit" class="btn btn-primario btn-full">
+                        <span>Enviar Mensagem</span>
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                            <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+                        </svg>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Luiz Carlos. Todos os direitos reservados.</p>
+            <p class="footer-sub">Desenvolvido com dedicação e IA como copiloto</p>
+        </div>
+    </footer>
+
+    <button class="btn-topo" id="btn-topo" aria-label="Voltar ao topo">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+            <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z"/>
+        </svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
